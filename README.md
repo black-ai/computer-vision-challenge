@@ -15,12 +15,12 @@ You are tasked with developing an algorithm to refine object detections from par
     2. A label mapping for this image. The Mapping represents regions containing people as 1, floorspace as 2, etc.
     
 2. Using any language or collection of libraries you wish, write a short program that for each depth image:
-    *. Loads the input data 
-    *. Applies the relevant label mask to the depth image;
-    *. segments the masked depth image;
-    *. Handles occlusion in the label mask; and 
-    *. Outputs the number of unique people in each of the given input images.
-    *. Outputs the time taken to process this image in miliseconds. 
+    * Loads the input data 
+    * Applies the relevant label mask to the depth image;
+    * segments the masked depth image;
+    * Handles occlusion in the label mask; and 
+    * Outputs the number of unique people in each of the given input images.
+    * Outputs the time taken to process this image in miliseconds. 
 
     You can go about this in any way you wish, though your implementation should be robust to the following scenarios:
 
