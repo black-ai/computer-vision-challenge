@@ -8,7 +8,7 @@ You are tasked with developing an algorithm to refine object detections from par
 
 1. Download the sample input data from [here]() or using the cli:
 
-    wget -t 15 http://foo.com
+    wget -t 15 https://s3-ap-southeast-2.amazonaws.com/public.data.black.ai/cv_challenge_dataset.zip
 
     The dataset contains a series of the following:
     1. A depth image with a scene containing people. 
@@ -34,6 +34,7 @@ You are tasked with developing an algorithm to refine object detections from par
 ![separete clearly defined people](https://s3-ap-southeast-2.amazonaws.com/public.data.black.ai/occluded_junk_labelled.png)
 
 #### Scenario 4: Erranous labelling artifacts.
+ie. noise whereby labels encapsulate impossibly small regions. 
 
 ## Submission
 
