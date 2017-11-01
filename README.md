@@ -25,16 +25,15 @@ You are tasked with developing an algorithm to refine object detections from par
     You can go about this in any way you wish, though your implementation should be robust to the following scenarios:
 
 #### Scenario 1: Separate clearly defined people
-![separete clearly defined people](img)
+![separete clearly defined people](https://s3-ap-southeast-2.amazonaws.com/public.data.black.ai/separate_people_labelled.png)
 
 #### Scenario 2: Occlusion; Overlapping people
-![separete clearly defined people](img)
+![separete clearly defined people](https://s3-ap-southeast-2.amazonaws.com/public.data.black.ai/overlapping_people_labelled.png)
 
 #### Scenario 3: Occlusion; Incomplete label mask
-![separete clearly defined people](img)
+![separete clearly defined people](https://s3-ap-southeast-2.amazonaws.com/public.data.black.ai/occluded_junk_labelled.png)
 
 #### Scenario 4: Erranous labelling artifacts.
-![separete clearly defined people](img)
 
 ## Submission
 
