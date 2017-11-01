@@ -6,7 +6,7 @@ You are tasked with developing an algorithm to refine object detections from par
 
 ## The task
 
-1. Download the sample input data from [here]() or using the cli:
+1. Download the sample input data from [here](https://s3-ap-southeast-2.amazonaws.com/public.data.black.ai/cv_challenge_dataset.zip) or using the cli:
 
     wget -t 15 https://s3-ap-southeast-2.amazonaws.com/public.data.black.ai/cv_challenge_dataset.zip
 
