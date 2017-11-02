@@ -12,7 +12,13 @@ You are tasked with developing an algorithm to refine object detections from par
 
     The dataset contains a series of the following:
     1. A depth image with a scene containing people. 
-    2. A label mapping for this image. The Mapping represents regions containing people as 1, floorspace as 2, etc.
+    2. A label mapping for this image. The Mapping represents regions containing people as:
+        
+        0 = furniture
+        1 = floor
+        2 = walls/ceiling
+        3 = female
+        4 = male
     
 2. Using any language or collection of libraries you wish, write a short program that for each depth image:
     * Loads the input data 
